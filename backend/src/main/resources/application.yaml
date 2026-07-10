@@ -1,3 +1,50 @@
+server:
+
+  port: 8080
+
+
+
 spring:
+
   application:
-    name: backend
+
+    name: aeroquell-api
+
+
+  datasource:
+
+    url: jdbc:postgresql://localhost:5432/aeroquell_db
+
+    username: postgres
+
+    password: math
+
+
+
+  jpa:
+
+    hibernate:
+
+      ddl-auto: update
+
+
+    show-sql: true
+
+
+    properties:
+
+      hibernate:
+
+        format_sql: true
+
+
+
+management:
+
+  endpoints:
+
+    web:
+
+      exposure:
+
+        include: health,info
