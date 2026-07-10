@@ -1,0 +1,1 @@
+CREATE DATABASE aeroquell_db;
