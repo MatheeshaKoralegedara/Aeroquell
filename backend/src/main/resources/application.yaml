@@ -42,7 +42,7 @@ flyway:
     locations: classpath:db/migration
 
 jwt:
-  secret: YOUR_256_BIT_SECRET_KEY_HERE
+  secret: YUiVTqgxEfyk/G0pD0hmkhrUqFfTsDP3g9ytGHocjxRs=
   expiration: 86400000
 
 
